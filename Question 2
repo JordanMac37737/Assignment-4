@@ -3,6 +3,8 @@ package Assignment4;
 public class Question2 {
 
 public static void main(String[] args) {
+//Create variable and continue adding one as long as it is less than or equal to 10
+//if the value is 4 or 7 skip to the next number
 int a = 1;
 for(a=1; a <= 10; a++) {
 if(a==4||a==7) {
