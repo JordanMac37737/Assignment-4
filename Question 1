@@ -1,0 +1,26 @@
+package Assignment4;
+
+public class Question1 {
+
+public static void main(String[] args) {
+//loops
+//The for loop will continue to add onto one until the number 10 is reached
+for(int a = 1; a <= 10; a++) {
+System.out.println(a);	
+}
+//The while loop will continue to add one until the number is no longer equal to or less than 10	
+int b=1;
+while(b <= 10) {
+	System.out.println(b);
+	b++;
+}
+//The do while loop will continue to add one as long as the number is still less than or equal to 10
+int c=1;
+do { 
+	System.out.println(c);
+	c++;
+} while(c <= 10);
+}
+
+	}
+
