@@ -1,0 +1,14 @@
+package Assignment4;
+
+public class Question3 {
+//introduce a sum variable to add numbers together
+//include a for loop for number increase 1-10
+//After the number increases add previous number to current number
+public static void main(String[] args) {
+	int sum = 0;
+for (int a = 1; a <= 10; a++) {
+sum+=a;
+}
+System.out.println(sum);
+}
+}
